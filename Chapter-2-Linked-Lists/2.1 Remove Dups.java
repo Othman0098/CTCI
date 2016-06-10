@@ -14,3 +14,25 @@ static void removeDups(LinkedListNode root){
         }
         return;
     }
+  
+//      Without extra space;
+static void removeDups(LinkedListNode root){
+
+        LinkedListNode slow = root;
+        LinkedListNode fast, fastPrev;
+
+        while(slow != null){
+            fast = slow.next;
+            fastPrev = slow;
+            while(fast != null){
+                if(fast.val == slow.val)
+                    fastPrev.next = fast.next;
+                else
+                    fastPrev = fast;
+                fast = fast.next;
+            }
+            slow = slow.next;
+        }
+        
+        return;
+    }
