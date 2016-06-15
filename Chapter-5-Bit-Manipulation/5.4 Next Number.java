@@ -16,4 +16,7 @@ int nextNumber(int num){
         tmp >>>= 1;
         zeroIdx++;
     }
+    
+    //
+    ....
 }
