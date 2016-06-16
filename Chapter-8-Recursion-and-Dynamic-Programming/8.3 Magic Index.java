@@ -29,5 +29,10 @@ int findMagic(int[] nums) {
     return -1;
 }
 
+/**
+ * Follow Up:
+ * Using brute force;
+ * /
+
 
  
