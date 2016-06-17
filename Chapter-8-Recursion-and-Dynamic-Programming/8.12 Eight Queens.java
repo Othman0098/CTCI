@@ -1,5 +1,5 @@
 //  对半切;
-//  可继续优化： 用boolean[][] 记录可以填Q的位置;
+//  可继续优化： 用boolean[][] 记录可以填Q的位置;   (int[][] 多次冲突)
 import java.util.*;
 
 public class Solution {
