@@ -1,3 +1,8 @@
+//  Better way;
+//  Insert elements into the back of the array! ! ! ! ! !
+
+
+//  Shift elements;
 int[] mergeSorted(int[] a, int[] b) {
     int la = a.length;
     int lb = b.length;
