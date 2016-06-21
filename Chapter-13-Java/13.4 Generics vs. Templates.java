@@ -1,3 +1,5 @@
+/* Java Generics and C++ Templates are completely DIFFERENT ! ! ! ! ! !
+
 /**
  * Java Generics:
  *      Is rooted in an idea of "type erasure." 
