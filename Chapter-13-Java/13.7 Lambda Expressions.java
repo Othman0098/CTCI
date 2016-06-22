@@ -1,5 +1,4 @@
 //  Lambda expressions;
-
 int getPopulation(List<Country> countries, String continent) {
     /* Filter countries. */
     Stream<Country> sublist = countries.stream().filter(
@@ -16,6 +15,13 @@ int getPopulation(List<Country> countries, String continent) {
     return population;
 }
 
+
+//  Concise Lambda expressions;
+int getPopulation(List<Country) countries, String continent) {
+    Stream<Integer> populations = countries.stream().map(
+        c -> c.getContinent().equals(continent) ? c.getPopulations() : 0);
+    return populations.reduce(0, (a, b) -> a + b);
+}
 
 
 //  Straight forward;
