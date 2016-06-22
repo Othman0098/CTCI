@@ -9,5 +9,14 @@
  */
  
  /**
+  * Thread:
+  * A thread exists whithin a process and shares the process` resources (including its heap space). Multiple threads within the same 
+  * process will share the same heap space.
+  * Each thread still has its own registers and its own stack, but other threads can read and write the heap memory.
   * 
   */
+  
+  /**
+   * A thread is a particular execution path of a process. When one thread modifies a process resource, the change is immediately visible 
+   * to sibling threads.
+   */
