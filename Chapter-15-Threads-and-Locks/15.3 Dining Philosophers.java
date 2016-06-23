@@ -1,4 +1,6 @@
 /**
+ *  Solution #1:
+ * 
  *  To prevent deadlocks, we can implement a strategy where a philosopher will put down his left chopstick if he is unable to obtain 
  *  the right one.
  *
