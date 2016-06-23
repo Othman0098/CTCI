@@ -36,3 +36,14 @@ public class Philosopher extneds Thread {
     return true;
   }
 }
+
+
+/**
+ * Solution #2:
+ * 
+ * Each philosopher attempts to pick up the lower numbered chopstick first, means that each philosopher goes for the left before the 
+ * right one except for the last philosopher who does this in reverse.
+ * 
+ * This prevent the ability to have a cycle.
+ * 
+ */
