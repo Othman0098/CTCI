@@ -22,3 +22,12 @@ int convertBoardToInt(Piece[][] board) {
  *  If we know the very last move that was made, then we only need to check the row, column, and diagonal 
  *  that overlaps with this posistion.
  */
+ 
+/**
+ *  Important to make code in a clean and maintainable way ! ! ! ! ! !
+ *  
+ *  Increment and Decrement Function;
+ *  Iterator;
+ *  ...
+ *
+ */
