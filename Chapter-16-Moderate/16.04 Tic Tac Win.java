@@ -15,3 +15,10 @@ int convertBoardToInt(Piece[][] board) {
     }
     reutnr sum;
 }
+
+
+//  Solution #2;
+/**
+ *  If we know the very last move that was made, then we only need to check the row, column, and diagonal 
+ *  that overlaps with this posistion.
+ */
