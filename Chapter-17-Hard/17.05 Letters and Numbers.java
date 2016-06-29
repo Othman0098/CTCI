@@ -36,3 +36,15 @@ int longestLNsub(char[] array) {
     
     return res;
 }
+
+
+/**
+ * Optimal:
+ * 
+ * Using a HashTable to store the first time we see a particular difference.
+ * Then, each time we see the same difference, we see if this subarray (from first occurrence of this index to current index) is 
+ * bigger than the current max. If so, we update the max.
+ * 
+ * This will lead to a O(N) solution;
+ * 
+ */
