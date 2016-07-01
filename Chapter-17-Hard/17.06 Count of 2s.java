@@ -4,6 +4,7 @@
  * 百位 2, 100 every 1000;
  * ...
  * 
+ * Be careful;
  */
 
 int countOf2(int n) {
