@@ -5,6 +5,7 @@
  * ...
  * 
  * Be careful;
+ * 
  */
 
 int countOf2(int n) {
