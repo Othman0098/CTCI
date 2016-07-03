@@ -20,3 +20,10 @@ int mostPeopleAliveYear(LinkedList<Person> people) {
     
     return max;
 }
+
+
+/**
+ * Solution 2:
+ * Sort first;
+ * 
+ */
