@@ -43,3 +43,16 @@ HashMap<String, Integer> getTrueFrequencies(Graph graph) {
     }
     return rootNames;
 }
+
+/* Do depth-first search to find the total frequency of this component, and mark each node as visited. */
+int getComponentFrequency(GraphNode node) {
+    if (node.isVisited())
+        return 0;   //  Already visited
+        
+    node.setIsVisited(true);
+    int sum = node.getFrequency();
+    for (GraphNode child : node.getNeighbors()) {
+        sum += getComponentFrequency(child);
+    }
+    return sum;
+}
