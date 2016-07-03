@@ -42,3 +42,25 @@ int negate(int a) {
     }
     return reg;
 }
+
+
+/**
+ * Multiplication;
+ * 
+ */
+
+int multiply(int a, int b) {
+    if (a < b) {
+        return multiply(b, a);
+    }
+    
+    int sum = 0;
+    for (int i = abs(b); i > 0; i = minus(i, 1)) {
+        sum += a;
+    }
+    
+    if (b < 0) {
+        sum = negate(sum);
+    }
+    return sum;
+}
