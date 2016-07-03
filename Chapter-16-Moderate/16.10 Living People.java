@@ -24,6 +24,8 @@ int mostPeopleAliveYear(LinkedList<Person> people) {
 
 /**
  * Solution 2:
+ * 
  * Sort first;
+ * Every birth adds a person and every death removes a person;
  * 
  */
