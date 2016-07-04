@@ -3,6 +3,9 @@
  * 
  * Major Element I II;
  * 
+ * 相同的元素，计数++;
+ * 不同的相消，计数--;
+ * 
  */
 
 int majorityElement(int[] nums) {
