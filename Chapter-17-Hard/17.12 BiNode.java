@@ -14,6 +14,16 @@ BiNode[] convertBTStoDLL(BiNode root) {
     /* res[0]: Head;    res[1]: Tail. */
     BiNode[] res = new BiNode[2];
     
+    /**
+     * Better way to return two nodes ! ! ! ! ! !
+     * Using a wrapper class for clean code ! ! ! ! ! !
+     * 
+     * private class NodePari{
+     *      BiNode head, tail;   
+     * }
+     * 
+     */
+    
     if (root == null) {
         res[0] = null;
         res[1] = null;
