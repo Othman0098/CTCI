@@ -2,6 +2,13 @@
  * Tree Traversal;
  * 
  */
+ 
+/**
+ * 也可不用回传两个node;
+ * 用circular linked list;
+ * 让head左指针指向tail;
+ * 
+ */
 
 public class BiNode {
     public BiNode node1, node2;
