@@ -21,3 +21,14 @@ void subSort(int[] nums) {
     System.out.println("m: " + m);
     System.out.println("n: " + n);
 }
+
+/**
+ * Solution 2:
+ * 
+ * Divide the array into three parts: LEFT, MIDDLE, RIGHT;
+ * The condition that being able to sort MIDDLE and have the whole array becomes sorted, you need:
+ *      MAX(LEFT) <= MIN(MIDDLE and RIGHT)      and      MAX(LEFT and MIDDLE) <= MIN(RIGHT);
+ * 
+ * Need two shrink: shrink_left and shrink_right;
+ * 
+ */
