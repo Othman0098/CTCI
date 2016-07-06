@@ -19,3 +19,17 @@ int returnSmallestK(List<> nums, int k) {
     else
         return returnSmallestK(leftList, k); 
 }
+
+/**
+ * Other solution #1:
+ * 
+ * Sorting;
+ * 
+ */
+ 
+/**
+ * Other solution #2:
+ * 
+ * Max Heap;
+ * 
+ */
