@@ -9,3 +9,8 @@
  * 4. Try all possible splits;
  * 
  */
+ 
+ /**
+  * Standard answer similar to Solution 1;
+  * 
+  */
